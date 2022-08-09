@@ -14,8 +14,8 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install resume-cli
+        run: npm install -g resume-cli
 
       - name: Generate PDF
         run: resume export resume.pdf --theme actual
