@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "resume serve --theme actual",
+    "generate": "resume export resume.pdf --theme actual"
   },
   "author": "",
   "license": "ISC",

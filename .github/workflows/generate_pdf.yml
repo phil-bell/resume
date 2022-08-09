@@ -15,10 +15,10 @@ jobs:
           node-version: 16
 
       - name: Install resume-cli
-        run: npm install --location=global resume-cli
+        run: npm install
 
       - name: Generate PDF
-        run: resume export resume.pdf --theme actual
+        run: npm run generate
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
