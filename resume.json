@@ -84,7 +84,7 @@
       ]
     },    
     {
-      "name": " s3-loade",
+      "name": " s3-loader",
       "description": "Simple python package for uploading directories to AWS S3, made with Python and Typer library",
       "highlights": [
         "Python",
@@ -93,7 +93,8 @@
       ],
       "url": "https://github.com/phil-bell/s3-loader",
       "roles": [
-        "creator"
+        "creator",
+        "maintainer"
       ]
     },
     {
@@ -105,7 +106,8 @@
       ],
       "url": "hhttps://github.com/phil-bell/the-python-bay",
       "roles": [
-        "creator"
+        "creator",
+        "maintainer"
       ]
     },
     {
@@ -117,9 +119,9 @@
       ],
       "url": "hhttps://github.com/phil-bell/resume",
       "roles": [
-        "creator"
+        "author"
       ]
-    },
+    }
   ],
   "skills": [
     {
@@ -172,25 +174,6 @@
       "studyType": "Bachelor"
     }
   ],
-  "certificates": [
-    {
-      "name": "AWS Certified Solutions\n\n Architect - Professional",
-      "url": "https://www.your-badge.com",
-      "issuer": "Amazon Web Services"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Website of the day",
-      "awarder": "Awwward",
-      "summary": "Received for my website [domain.com](domain.com)"
-    },
-    {
-      "title": "Java Champion",
-      "awarder": "Oracle",
-      "summary": "Obtained thanks to my contributions \n\n to the Java community."
-    }
-  ],
   "languages": [
     {
       "language": "English",
@@ -216,7 +199,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "lastModified": "2022-08-09T20:40:00"
   }
 }
