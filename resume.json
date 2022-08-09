@@ -69,20 +69,7 @@
       "roles": [
         "creator"
       ]
-    },    
-    {
-      "name": "Slumlords",
-      "description": "Landlord review website for tenant justice built with Django and containerised with Docker",
-      "highlights": [
-        "Python",
-        "Django",
-        "Docker"
-      ],
-      "url": "https://github.com/phil-bell/slumlords",
-      "roles": [
-        "creator"
-      ]
-    },    
+    },       
     {
       "name": " s3-loader",
       "description": "Simple python package for uploading directories to AWS S3, made with Python and Typer library",
