@@ -6,8 +6,7 @@
     "label": "Senior Software Developer",
     "email": "philhabell@gmail.com",
     "phone": "+447472618866",
-    "url": "http://philbell.uk",
-    "summary": "Senior Software engineer specializing in **Python** (Django/Flask/FastAPI) and **Go** (Fiber) with extensive DevOps experience in **Docker** and CI/CD pipelines. Currently working in the **Legaltech** and **Fintech** industries with previous experience in the Communications industry and a degree in **Computer Science**.",
+    "summary": "As a Senior Software Engineer, I am proficient in **Python**, specifically within **Django, FastAPI and Flask** frameworks, along with expertise in **Rust** and **Go**. My skill set is further complemented by comprehensive DevOps experience, particularly in **Docker** and CI/CD pipelines. Currently, I'm driving innovation in the Legaltech and Fintech sectors, leveraging my prior experience in the Communications industry. My foundation in these complex technical arenas is rooted in a solid Computer Science degree..",
     "location": {
       "city": "London",
       "countryCode": "UK"
@@ -25,18 +24,16 @@
     {
       "name": "Legl",
       "location": "London, UK",
-      "position": "Senior Backend Software Engineer",
+      "position": "Senior Software Engineer",
       "url": "https://legl.com",
       "startDate": "2019-10-20",
-      "summary": "Legl is a legal and financial tech company working in the legal industry working in compliance, finance and fundraising. All in the aid to bringing the legal industry into the 21st century. I started as a Software Engineer when Legl was just CrowdJustice helping build Legls products. I then transitioned to specialise as a Backend Engineer in 2021, which led to being promoted to Senior in July 2022.",
+      "summary": "Legl, a fintech firm operating in the legal industry, offers innovative solutions in compliance, finance, and fundraising. My journey started when the company was still CrowdJustice, as a Software Engineer, contributing to Legl's evolving product suite. In 2021, I specialized as a Backend Engineer and, following my dedicated work, earned a promotion to Senior Backend Engineer in July 2022.",
       "highlights": [
         "Creating APIs with DRF",
         "Deploying Docker across our pipeline",
-        "New features for our Django applicaiton",
-        "Making imrpovments to our CI/CD pipeline",
-        "Stripe and open banking with Banked",
-        "Complience with Onfido and Comply Advantage",
-        "TrueLayer for Open Finance"
+        "Making imrpovments to our CI/CD with CircleCI and Github Actions",
+        "Managing Heroku and AWS infrastructure with Terraform",
+        "Intagrating with third party APIs"
       ]
     },
     {
@@ -46,30 +43,30 @@
       "url": "https://cityfibre.com/",
       "startDate": "2017-09-07",
       "endDate": "2019-10-20",
-      "summary": "Fiber infestructure ISP breaking the inudstry monopoly and building Vodaphones FTTP. I worked mostly on creating microservices for internal and external tools while building out and managing our mesh of IOT devices to make the fibre network function",
+      "summary": "A leading UK-based Fiber Infrastructure ISP focused on FTTP networks, I led the development of microservices for internal and external tools, enhancing our digital operations. Additionally, I managed our expansive IoT device mesh, ensuring the seamless operation of our fiber network and reinforcing our reputation for reliability and performance.",
       "highlights": [
         "Creating Flask microservices",
         "Deploying on AWS Lambda",
-        "Working on level level IOT devices",
-        "Creating and managing the provisioning system"
+        "Working on low level IOT devices",
+        "Creating and managing the provisioning systems"
       ]
     }
   ],
   "projects": [
     {
       "name": "Niki",
-      "description": "Centralised website with companion server application for downloading a managing Plex or Kodi content. Build in Goland and Vue on top of a Docker with Kubernetes infa.",
+      "description": "Centralised website for managing a network of Plex, Jellyfin and Kodi server content. Build in DRF and Vue with a companion Docker app using FastAPI.",
       "highlights": [
-        "Go Fiber",
-        "Vue and Vite",
-        "Docker with Kubernetes",
-        "P2P"
+        "DRF",
+        "Vue",
+        "FastAPI",
+        "Docker"
       ],
-      "url": "https://github.com/phil-bell/niki-web",
+      "url": "https://github.com/phil-bell?tab=repositories&q=niki",
       "roles": [
         "creator"
       ]
-    },       
+    },
     {
       "name": " s3-loader",
       "description": "Simple python package for uploading directories to AWS S3, made with Python and Typer library",
@@ -115,6 +112,7 @@
       "name": "Languages",
       "keywords": [
         "Python",
+        "Rust",
         "Golang",
         "Javascript"
       ]
@@ -123,14 +121,15 @@
       "name": "Frameworks",
       "keywords": [
         "Django",
-        "Fiber (Go)",
+        "FastAPI",
         "Flask",
-        "FastAPI"
+        "Fiber (Go)"
       ]
     },
     {
       "name": "Tools",
       "keywords": [
+        "VS Code",
         "Sublime",
         "Sublime Merge"
       ]
@@ -142,6 +141,7 @@
         "Kubernetes",
         "AWS",
         "Heroku"
+        "Terraform"
       ]
     },
     {
@@ -149,7 +149,10 @@
       "keywords": [
         "Open source",
         "XP",
-        "Technical guidance"
+        "Technical guidance",
+        "Code Swarming",
+        "TDD",
+        "DDD"
       ]
     }
   ],
@@ -169,7 +172,7 @@
   ],
   "interests": [
     {
-      "name": "Skateboarding"
+      "name": "Longboarding"
     },
     {
       "name": "Open Source"
@@ -186,7 +189,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.1",
-    "lastModified": "2022-08-09T20:40:00"
+    "version": "v1.0.2",
+    "lastModified": "2023-06-28T20:40:00"
   }
 }
