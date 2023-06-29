@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "resume serve --theme actual",
-    "generate": "resume export resume.pdf --theme actual"
+    "generate:pdf": "resume export resume.pdf --theme actual",
+    "generate:html": "resume export public/index.html --theme actual"
   },
   "author": "",
   "license": "ISC",
