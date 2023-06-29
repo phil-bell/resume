@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
-      - run: npm cis
+      - run: npm ci
       - run: mkdir public
       - run: npm run generate:html
       - uses: peaceiris/actions-gh-pages@v3
