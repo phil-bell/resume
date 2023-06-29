@@ -2,20 +2,19 @@ name: Generate
 on: push
 
 jobs:
-  generate:
-    name: Generate PDF
+  generate_pdf:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: npm install
+      - run: npm ci
       - run: npm run generate:pdf
       - uses: EndBug/add-and-commit@v9
         with:
           default_author: github_actions
-  deploy:
+  deploy_page:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -24,6 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
+      - run: npm cis
       - run: mkdir public
       - run: npm run generate:html
       - uses: peaceiris/actions-gh-pages@v3
