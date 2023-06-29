@@ -5,8 +5,8 @@
     "name": "Phil Bell",
     "label": "Senior Software Developer",
     "email": "philhabell@gmail.com",
-    "phone": "+447472618866",
-    "summary": "As a Senior Software Engineer, I am proficient in **Python**, specifically within **Django, FastAPI and Flask** frameworks, along with expertise in **Rust** and **Go**. My skill set is further complemented by comprehensive DevOps experience, particularly in **Docker** and CI/CD pipelines. Currently, I'm driving innovation in the Legaltech and Fintech sectors, leveraging my prior experience in the Communications industry. My foundation in these complex technical arenas is rooted in a solid Computer Science degree..",
+    "phone": "+44 7472618866",
+    "summary": "As a Senior Software Engineer, I am proficient in **Python**, specifically within **Django, FastAPI and Flask** frameworks, along with expertise in **Rust** and **Go**. My skill set is further complemented by comprehensive DevOps experience, particularly in **Docker** and **CI/CD** pipelines. Currently, I'm driving innovation in the Legaltech and Fintech sectors, leveraging my prior experience in the Communications industry. My foundation in these complex technical arenas is rooted in a solid Computer Science degree.",
     "location": {
       "city": "London",
       "countryCode": "UK"
@@ -29,11 +29,11 @@
       "startDate": "2019-10-20",
       "summary": "Legl, a fintech firm operating in the legal industry, offers innovative solutions in compliance, finance, and fundraising. My journey started when the company was still CrowdJustice, as a Software Engineer, contributing to Legl's evolving product suite. In 2021, I specialized as a Backend Engineer and, following my dedicated work, earned a promotion to Senior Backend Engineer in July 2022.",
       "highlights": [
-        "Creating APIs with DRF",
-        "Deploying Docker across our pipeline",
-        "Making imrpovments to our CI/CD with CircleCI and Github Actions",
-        "Managing Heroku and AWS infrastructure with Terraform",
-        "Intagrating with third party APIs"
+        "Crafting APIs via Django Rest Framework",
+        "Enhancing pipeline with Docker deployments",
+        "Unifying third-party API integration",
+        "Streamlining our CI/CD with CircleCI/GitHub Actions",
+        "Managing Heroku/AWS infrastructure using Terraform"
       ]
     },
     {
@@ -45,10 +45,10 @@
       "endDate": "2019-10-20",
       "summary": "A leading UK-based Fiber Infrastructure ISP focused on FTTP networks, I led the development of microservices for internal and external tools, enhancing our digital operations. Additionally, I managed our expansive IoT device mesh, ensuring the seamless operation of our fiber network and reinforcing our reputation for reliability and performance.",
       "highlights": [
-        "Creating Flask microservices",
-        "Deploying on AWS Lambda",
-        "Working on low level IOT devices",
-        "Creating and managing the provisioning systems"
+        "Engineering Flask-based Microservices",
+        "Streamlining AWS Lambda Deployments",
+        "Navigating Low-Level IoT Device Operations",
+        "Orchestrating Provisioning Systems Management"
       ]
     }
   ],
@@ -113,7 +113,7 @@
       "keywords": [
         "Python",
         "Rust",
-        "Golang",
+        "Go",
         "Javascript"
       ]
     },
@@ -123,7 +123,8 @@
         "Django",
         "FastAPI",
         "Flask",
-        "Fiber (Go)"
+        "Fiber",
+        "Vue"
       ]
     },
     {
@@ -147,12 +148,14 @@
     {
       "name": "Other",
       "keywords": [
-        "Open source",
-        "XP",
-        "Technical guidance",
         "Code Swarming",
+        "Open source",
+        "Guidance",
+        "Leadership",
+        "Mentoring",
         "TDD",
-        "DDD"
+        "DDD",
+        "XP"
       ]
     }
   ],
